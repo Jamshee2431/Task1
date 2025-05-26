@@ -1,0 +1,140 @@
+Html code
+
+<!DOCTYPE html>
+<head>
+  <title>Tea shop</title>
+  <link rel="stylesheet" href="hello.css" />
+</head>
+<body>
+  <header style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.21JcRkn_vGvXJgXidnKlYQHaHa&pid=Api&P=0&h=180);">
+    <div class="logo"><img src="https://tse4.mm.bing.net/th?id=OIP.cI2dP0DmBtA9sQ82e3xhaAHaH_&pid=Api&P=0&h=180" alt="logo"></div>
+    <nav>
+      <ul class="linkss">
+        <li><a href="">Home</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="heroo">
+      <h1>Welcome to Our Tea Shop Website</h1>
+      <p>Your journey to the happiness starts here.</p>
+      <a href="" class="button">Let's Start</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TeaCafe</p>
+       <p> Follow us on:</p>
+    <div class="links">
+      <a href="">Instagram</a>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+Css code
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #605746;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.linkss {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+  background: #a88b4e;
+  padding: 5px 30px;
+}
+
+.hero {
+  background: linear-gradient(to right, #604821, #a88b4e);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.button {
+  background: white;
+  color: #6b6d5c;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.linkss a {
+  color: rgb(242, 242, 242);
+  font-weight: bold;
+  background: #612e2e;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 5px 30px;
+}
+
+@media (max-width: 768px) {
+  .linkss {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .button {
+    padding: 10px 20px;
+  }
+}
